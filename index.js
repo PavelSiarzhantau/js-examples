@@ -6,7 +6,7 @@ console.log('start::  ' + pastDate);
 console.log('data parse:: ' + Date.parse(pastDate));
 console.log('date now::  ' + Date.now());
 console.log(Date.now() - Date.parse(pastDate));
-console.log(new Date(Date.now() - Date.parse(pastDate)).toISOString().slice(11,19));
+console.log(new Date(Date.now() - Date.parse(start)).toISOString().slice(11,19));
 console.log('');
 let animal = new Object();
 animal.name = 'Rex';
