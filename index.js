@@ -1,5 +1,5 @@
 
-onst start = new Date();
+const start = new Date();
 const pastDate = new Date(Date.UTC(2000, 0, 0, 0, 0, 0));
 console.log('pastDate::  ' + start);
 console.log('start::  ' + pastDate);
@@ -31,3 +31,4 @@ setInterval(() => {
 let bark = () => {
     console.log('this:: ' + this);
 }
+
