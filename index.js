@@ -2,7 +2,7 @@
 const start = new Date();
 const pastDate = new Date(Date.UTC(2000, 0, 0, 0, 0, 0));
 console.log('pastDate::  ' + start);
-console.log('start::  ' + start);
+console.log('start::  ' + pastDate);
 console.log('data parse:: ' + Date.parse(start));
 console.log('date now::  ' + Date.now());
 console.log(Date.now() - Date.parse(pastDate));
